@@ -17,22 +17,54 @@
       <style>
         model-viewer {
           width: 100%;
-          height: 100%;
+          height: 90%;
 
+        }
+        
+        .pos {
+          display: flex;
+            justify-content: center;
+
+            font-weight: 600;
+            font-size: 24;
+            color: #A00A0A;
+            top: 10%;
+          
+        }
+        
+        .lol {
+           display: flex;
+          margin: 1em;
+           justify-content: center;
+          
+        }
+        
+        img {
+          width: 24%;
+          top: 1%;
+          height: 6%;
         }
         button {
           position: absolute;
-          background-color: #A00A0A;
+          background-color: black;
+          border-radius: 12px;
           font-size: 18;
-          width: 100%;
-          height: 100%;
+          border: none;
+          bottom: 5%;
+          left:15%;
+          align-items: center;
+          font-weight: 800;
+          color: white;
+          padding: 1em;
           justify-content: center;
         }
       </style>
-      
+      <div class="lol">
+        <img src="glb/logo.svg">
+      </div>
       
       <model-viewer position="0 0 0" src="glbs/blue.glb" ar ar-modes="webxr scene-viewer quick-look fallback"
-      ar-scale="auto" auto-rotate camera-controls alt="model" ios-src="glbs/blue.usdz">
+      ar-scale="auto" auto-rotate camera-controls alt="model" ios-src="glb/blue.usdz">
         <button
           slot="ar-button">
           ОТКРЫТЬ ПРОСМОТР AR
