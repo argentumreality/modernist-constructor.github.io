@@ -55,6 +55,14 @@ body {
   justify-content: center;
   
 }
+#logo {
+    display: block;
+    position: fixed;
+    color: #2f3640;
+    font-size: 20px;
+    top: 4%;
+    width: 100px;
+}
  
 .modal {
         animation: drop .45s ease forwards;   
