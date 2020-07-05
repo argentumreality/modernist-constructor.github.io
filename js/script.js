@@ -13,7 +13,7 @@ const colors = [
     texture: 'resources/blue.png',
     size: [1,1,1],
     shininess: 10,
-    link: 'https://argreality.github.io/example5.github.io/',
+    link: 'android/beds/1.html',
     //glb: 'android/beds/glbs/BROWN.glb',
     //usdz: 'android/beds/glbs/BROWN2.usdz',
 },
