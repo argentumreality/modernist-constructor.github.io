@@ -27,7 +27,7 @@ const colors = [
 
 },
 {
-    texture: 'resources/purp.png',
+    texture: 'resources/purp.jpg',
     size: [1,1,1],
     shininess: 0,
     link: 'android/beds/3.html',
