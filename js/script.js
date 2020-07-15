@@ -4,7 +4,7 @@ const TRAY = document.getElementById('js-tray-slide');
 const DRAG_NOTICE = document.getElementById('js-drag-notice');
 
 var theModel;
-const MODEL_PATH = "models/stul2.glb";
+const MODEL_PATH = "models/vanila.glb";
 var activeOption = 'main';
 var activeURL = 'https://zippy-passenger.glitch.me/'
 var loaded = false;
